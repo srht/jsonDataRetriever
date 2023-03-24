@@ -4,7 +4,8 @@ $session.Cookies.Add((New-Object System.Net.Cookie("search_ab", "%7B%227%22%3A82
 # I got this part from opera developer tools by saving the XHR request as powershell  
 #$years="1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013"
 $years="2022,2023"
-for ($num = 0 ; $num -le $tavan ; $num=$num+100){
+$totalValues=5000
+for ($num = 0 ; $num -le $totalValues ; $num=$num+100){
     $offset=$num
     $uri="https://www.jsondatasource1234.com/api?years="+$years+"&offset="+$offset+"&show=100"
     #first make the request then select the content and save it to a file
