@@ -1,0 +1,20 @@
+﻿[
+  {
+    "searchResults": [
+      {
+        "authors": [
+          { "order": 1, "name": "Ad Soyad1" },
+          { "order": 2, "name": "Ad2 Soyad2" }
+        ],
+        "title": "Title Value"
+      },
+      {
+        "authors": [
+          { "order": 1, "name": "Ad Soyad1" },
+          { "order": 2, "name": "Ad2 Soyad2" }
+        ],
+        "title": "Title Value"
+      }
+    ]
+  }
+]
